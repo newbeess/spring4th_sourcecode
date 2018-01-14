@@ -6,7 +6,12 @@
 
     <groupId>com.leon</groupId>
     <artifactId>chapter2</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>javaconfig</module>
+        <module>autoconfig</module>
+    </modules>
 
     <dependencies>
 
@@ -23,6 +28,13 @@
             <version>4.3.13.RELEASE</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/com.github.stefanbirkner/system-rules -->
+        <dependency>
+            <groupId>com.github.stefanbirkner</groupId>
+            <artifactId>system-rules</artifactId>
+            <version>1.17.0</version>
+            <scope>test</scope>
+        </dependency>
 
         <dependency>
             <groupId>junit</groupId>
