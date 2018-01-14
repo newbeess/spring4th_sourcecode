@@ -1,6 +1,6 @@
 package soundsystem;
 
-public interface CompactDisc {
+public interface MediaPlayer {
 
   void play();
 

@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>javaconfig</module>
+        <module>autoconfig</module>
     </modules>
 
     <dependencies>
