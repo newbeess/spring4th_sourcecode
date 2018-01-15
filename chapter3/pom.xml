@@ -22,6 +22,8 @@
     </build>
     <modules>
         <module>profile</module>
+        <module>conditional</module>
+        <module>beanscope</module>
     </modules>
     <dependencies>
         <dependency>
