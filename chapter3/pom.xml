@@ -24,6 +24,7 @@
         <module>profile</module>
         <module>conditional</module>
         <module>beanscope</module>
+        <module>external</module>
     </modules>
     <dependencies>
         <dependency>
