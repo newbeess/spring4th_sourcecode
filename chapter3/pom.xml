@@ -25,6 +25,7 @@
         <module>conditional</module>
         <module>beanscope</module>
         <module>external</module>
+      <module>../chapter4</module>
     </modules>
     <dependencies>
         <dependency>
