@@ -1,7 +1,6 @@
 package com.leon.aop;
 
 
-import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.AfterThrowing;
@@ -16,7 +15,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 @Aspect
-public class AudienceWithPointCut {
+public class AudienceAspect {
 
   /**
    * 定义切点pointcut，名为performance

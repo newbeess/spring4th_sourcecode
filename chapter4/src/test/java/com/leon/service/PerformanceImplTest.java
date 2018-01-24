@@ -16,5 +16,7 @@ public class PerformanceImplTest {
   @Test
   public void testBeforeAop() {
     performance.perform();
+    Encorable encorable = (Encorable) performance;
+    encorable.performEncore();
   }
 }
